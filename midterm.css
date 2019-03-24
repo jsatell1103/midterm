@@ -1,0 +1,165 @@
+@keyframes animation {
+    0% {background-color: #C4C4C4;}
+    50% {background-color: black;}
+    100% {background-color: #C4C4C4;}
+
+}
+
+.card-title2:hover{
+    animation: animation 3s linear 0s infinite;
+}
+body{
+    width: 100%;
+}
+nav{
+    background-color: #AFECFF;
+}
+.navbar-nav{
+    font-family: 'Proza Libre', sans-serif;
+    color: black;
+
+}
+
+.navbar-brand{
+    font-family: 'Rancho', cursive;
+    font-size: 48px;
+    color: black;
+    align-items: center;
+}
+
+.nav-item{
+    color: black;
+}
+
+img{
+    height: 427px;
+    width: 100%;
+}
+
+h1{
+    font-family: 'Rancho', cursive;
+    
+    font-size: 72px;
+}
+
+.h2{
+    margin-top: 20px;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+.info{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color:#C4C4C4;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    height: 146px;
+}
+.info{
+    padding-top: 35px;
+}
+
+.box{
+    background-color: #AFECFF;
+    width: 100%;
+    height: 166px;
+}
+
+.h3{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: -100px;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 24px;
+    background-color: white;
+    border: black 2px solid;
+    padding: 10px;
+    color: #127190;
+    
+}
+.card{
+    margin-top: 100px;
+}
+
+.btn{
+    background-color: #AFECFF;
+    color: black;
+    border-color: #AFECFF;
+}
+
+.card-bodyr{
+    background-color: #127190;
+    height: 181px;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 24px;
+    color: white;
+    transition: background-color: 5s ease;
+}
+
+.card-bodyr:hover{
+    background-color: black;
+}
+.card-text{
+    font-style: normal;
+    font-size: 15px;
+}
+
+.card-body{
+    font-family: 'Proza Libre', sans-serif;
+}
+
+.h1{
+    font-family: 'Rancho', cursive;
+    color: white;
+    font-size: 72px;
+}
+.description{
+    font-family: 'Proza Libre', sans-serif;
+    color: white;
+}
+
+.section{
+    background-color: #127190;
+    height: 150px;
+}
+
+.section2{
+    background-color: black;
+}
+
+.form-group{
+    margin-top: 10px;
+}
+
+.footercont{
+    background-color: #AFECFF;
+    height: 200px;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+.btn{
+    transition: background-color: 0.5s ease;
+}
+
+.btn:hover{
+    background-color: black;
+}
+
+.card-title5{
+    transition: all;
+}
+
+.card-title5:hover{
+    transform: scale(2);
+}
+
+.toppick{
+    transition:all;
+}
+
+.toppick:hover{
+    transform: rotate(180deg)
+}
